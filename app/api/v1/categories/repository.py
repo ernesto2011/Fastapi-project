@@ -59,3 +59,4 @@ class CategoryRepository:
     
     def delete(self, category: CategoryORM) -> None:
         self.db.delete(category)
+        self.db.flush()
