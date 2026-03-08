@@ -1,0 +1,64 @@
+# --- Python (General) ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Entornos Virtuales (Virtual Envs) ---
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# --- FastAPI / Proyecto Local ---
+# Variables de entorno y secretos (¡MUY IMPORTANTE!)
+.env
+.env.local
+.env.dev
+.env.prod
+
+# Bases de datos locales
+*.db
+*.sqlite3
+test.db
+
+# Logs
+*.log
+
+# --- Herramientas de Python/FastAPI ---
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+# mypy
+.mypy_cache/
+# Celery
+celerybeat-schedule
+
+# --- IDEs y Editores ---
+# VS Code
+.vscode/
+# PyCharm
+.idea/
+
+# --- macOS ---
+.DS_Store
